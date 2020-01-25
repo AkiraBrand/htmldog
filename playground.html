@@ -40,7 +40,7 @@
     <li>Butter chicken</li>
   </ol>
 
-  <p>Of all those, which do you think you would like the most?</p>
+  <p>Of all those, which do you think <strong>you</strong> would like the most?</p>
 
   <select>
     <option value="smoothie">Smoothie</option>
@@ -49,8 +49,31 @@
   </select>
 
 
-  <p>Sorta funny how that worked, huh?</p>
+
+  <p><em>Yeah, I'm inclined to agree with you!</em></p>
   <h4>Here, click this.</h4>
   <p><a href="#heading-one">Top of page</a></p>
+
+  <p>Want to have a chat with us? Well, too bad because there isn't an
+    endpoint. But let's pretend together.</p>
+<form action="contactus.php" method="post">
+
+  <p>Name:</p>
+  <p><input type="text" name="name" value="Your name here"</p>
+
+  <p>City</p>
+  <p><input type="text" name="city" value="Where you live now"</p>
+
+  <p>Comments: </p>
+  <p><textarea name="comments" rows="5" cols="20">Say it!</textarea></p>
+
+  <p>Are you:</p>
+  <p><input type="radio" name="areyou" value="female">Female</p>
+  <p><input type="radio" name="areyou" value="male">Male</p>
+  <p><input type="radio" name="areyou" value="trans">Trans</p>
+
+  <p><input type="submit"></p>
+</form>
+
 </body>
 </html>
