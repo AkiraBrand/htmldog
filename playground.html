@@ -43,8 +43,28 @@
     <td>Row 2, cell 1</td>
     <td>Row 2, cell 2</td>
     <td>Row 2, cell 3</td>
-  </tr> 
+  </tr>
 </table>
+
+<h3>A form that won't do anything:</h3>
+
+<form action="somescript.php" method="post">
+
+  <p>Name:</p>
+  <p><input name="name" value="Your name"></p>
+
+  <p>Phone:</p>
+  <p><input name="phone" value="Your number"></p>
+
+  <p>Comments:</p>
+  <p><textarea rows="10" cols="20" name="comments">Your comments</textarea></p>
+
+  <p>Are you:</p>
+  <p><input type="radio" name="areyou" value="single">Single</p>
+  <p><input type="radio" name="areyou" value="otherwise">Otherwise</p>
+
+  <p><input type="submit"></p>
+</form>
 
 </body>
 
