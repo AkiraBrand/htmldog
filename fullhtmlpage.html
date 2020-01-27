@@ -1,85 +1,75 @@
+<!--javascript is wild, man.-->
+
 <!DOCTYPE html>
+
 <html>
 
-<!--header-->
-<head attirubte = "title-text">
-  <title>This is the website title. Along with the head tag,
-    it makes up the header element.</title>
+<head>
+
+  <title>Another web page</title>
+
 </head>
-<!--body-->
-<body attribute = "body-text">
-  <!--add headings, the na list, then a text area, then a form and
-a table. Include links to webpages and images, jpeg and gif.-->
-  <h1 id="heading-one">This is a first heading</h1>
-  <h2 id="heading-two"> This is the second heading.</h2>
-    <p>This is inside the body tag, and this with the tag and headings makes up the body
-    element.</p
 
-    <p><strong>Next,</strong> I'll make a <em>list.</em></p><br>
-  <h3>Ok, what should I list off...</h3>
-  <p>How about things I ate today</p>
-  <ul>
-    <li>A smoothie</li>
-    <img src="https://tse4.mm.bing.net/th?id=OIP._O5LsutX82UDsZYjENY-MwHaE8&pid=Api"
-    width="120" height="90" alt="green smoothie">
-    <li>Vegetable medley soup</li>
-    <img src="https://tse1.mm.bing.net/th?id=OIP.I5dmq1CENGPJ8X-vBYwl5gHaLH&pid=Api"
-    width="120" height="90" alt="vegetable soup">
-    <li>Butter chicken</li>
-    <img src="https://tse1.mm.bing.net/th?id=OIP.YpQzBmG7kmnR09EVkQq13QHaE7&pid=Api"
-    width="120" height="90" alt="butter chicken">
-  </ul>
+<body>
 
-<textarea rows="5" cols="18">A big 'ol load of text'</textarea>
+<h1>Another HTML practice page</h1>
 
-<form action="processingscript.php" method="post">
-  <input type ="text">
-  <input type="submit" value="submit">
-</form>
+<h2>What this is:</h2>
 
-  <p>Now, in what order did I enjoy those things?</p>
-  <ol>
-    <li>Smoothie</li>
-    <li>Soup</li>
-    <p> And last but not least...</p>
-    <li>Butter chicken</li>
-  </ol>
+<p style="color: red">This is a page where I'm practicing my HTML layout</p>
 
-  <p>Of all those, which do you think <strong>you</strong> would like the most?</p>
+<h2>Why bother:</h2>
 
-  <select>
-    <option value="smoothie">Smoothie</option>
-    <option value="soup">Soup</option>
-    <option value="chicken">Butter chicken</option>
-  </select>
+<ul>
+  <li>To get better</li>
+  <li>To get a job</li>
+  <li>To build empathy</li>
+</ul>
 
+<h2>Where to find the tutorial I used</h2>
+<p><a href="https://www.htmldog.com/guides/html/beginner/conclusion/">
+  <img src="http://www.htmldog.com/badge1.gif" width="120" height="90" alt="HTML Dog">
+</a></p>
 
+<h3>Here's a table even though apparently they're overused?</h3>
 
-  <p><em>Yeah, I'm inclined to agree with you!</em></p>
-  <h4>Here, click this.</h4>
-  <p><a href="#heading-one">Top of page</a></p>
-<!--put more kinds of forms here-->
+<table>
+  <tr>
+    <td>Row 1, cell 1</td>
+    <td>Row 1, cell 2</td>
+    <td>Row 1, cell 3</td>
+  </tr>
+  <tr>
+    <td>Row 2, cell 1</td>
+    <td>Row 2, cell 2</td>
+    <td>Row 2, cell 3</td>
+  </tr>
+</table>
 
-  <p>Want to have a chat with us? Well, too bad because there isn't an
-    endpoint. But let's pretend together.</p>
-<form action="contactus.php" method="post">
+<h3>A form that won't do anything:</h3>
+<p>Seriously, it won't do anything.<br>
+  <img src="https://media0.giphy.com/media/zvBuF2oYRErVS/giphy.gif"
+  width="120" height="90" alt="Jim Carry">
+</p>
+
+<form action="somescript.php" method="post">
 
   <p>Name:</p>
-  <p><input type="text" name="name" value="Your name here"</p>
+  <p><input name="name" value="Your name"></p>
 
-  <p>City</p>
-  <p><input type="text" name="city" value="Where you live now"</p>
+  <p>Phone:</p>
+  <p><input name="phone" value="Your number"></p>
 
-  <p>Comments: </p>
-  <p><textarea name="comments" rows="5" cols="20">Say it!</textarea></p>
+  <p>Comments:</p>
+  <p><textarea rows="10" cols="20" name="comments">Your comments</textarea></p>
 
   <p>Are you:</p>
-  <p><input type="radio" name="areyou" value="female">Female</p>
-  <p><input type="radio" name="areyou" value="male">Male</p>
-  <p><input type="radio" name="areyou" value="trans">Trans</p>
+  <p><input type="radio" name="areyou" value="single">Single</p>
+  <p><input type="radio" name="areyou" value="otherwise">Otherwise</p>
 
   <p><input type="submit"></p>
 </form>
 
 </body>
+
 </html>
