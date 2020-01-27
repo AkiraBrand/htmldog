@@ -4,15 +4,20 @@ p {
 
 a {
     color: orange;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 body{
   font-size: 14px;
   color: #ffc;
   background-color: #009;
+  font-family: arial, helvetica, serif;
+  font-variant: small-caps;
 }
 
 h1{
   color: #ffc;
   background-color: #009;
+  font-style:italic;
 }
