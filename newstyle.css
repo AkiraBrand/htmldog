@@ -1,0 +1,33 @@
+body{
+  background-color: grey;
+  font-family: monospace;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.box-1{
+  background-color: #6b5b95;
+  border-width: 5px;
+  border-bottom-width: 10px;
+  border-top-width: 10px;
+  border-right-width: 15px;
+  border-let-width: 15px;
+}
+h1 {
+  color: pink;
+  text-alight: left;
+}
+
+.box-1{
+
+}
+h2 {
+  color: aqua;
+  text-align: left;
+}
+
+p {
+}
